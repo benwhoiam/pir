@@ -82,7 +82,7 @@ The `equations` folder contains the pre-transformed equations that have been pro
 The file [e4m.txt](#file:e4m.txt-context) is the only manual change made to an original equation. The original equation in [e4.txt](#file:e4.txt-context) did not follow the form `sqrt(A) < B`, so it was manually modified to create [e4m.txt](#file:e4m.txt-1-context).
 
 ## Usage
-
+All Python scripts support the `-h` and `--help` options to display usage information and available command-line arguments.
 ### Dependencies
 
 The project requires the following Python packages:
