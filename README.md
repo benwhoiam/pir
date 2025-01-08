@@ -152,3 +152,8 @@ Example:
 python generalSimplify.py equations/e8t
 ```
 
+### Additional Information
+
+For more details on the usage and functionality of each script, refer to the inline documentation within the scripts themselves. Each script includes comments and docstrings that explain the purpose and usage of functions and variables.
+
+
