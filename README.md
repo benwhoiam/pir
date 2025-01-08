@@ -10,6 +10,9 @@ This project contains a set of Python scripts designed to solve and simplify mat
   - [simplify.py](#simplifypy)
   - [generalSimplify.py](#generalsimplifypy)
   - [solver.py](#solverpy)
+- [Equations](#equations)
+  - [Original Equations](#original-equations)
+  - [Pre-transformed Equations](#pre-transformed-equations)
 - [Usage](#usage)
   - [Dependencies](#dependencies)
   - [Running the Scripts](#running-the-scripts)
@@ -63,6 +66,20 @@ This script solves equations using the Z3 theorem prover and visualizes the solu
 - `apply_step_constraints(s)`: Applies step constraints to the solver for Range and bearing.
 - `Floats(s)`: Converts Z3 decimal to float.
 - `show_graph(solutions)`: Displays a graph of the solutions.
+
+## Equations
+
+### Original Equations
+
+The `original_equations` folder contains the equations that were provided at the start of the project. These equations are in their original form and have not been modified.
+
+### Pre-transformed Equations
+
+The `equations` folder contains the pre-transformed equations that have been processed using the `inf2Pre.py` script. This allows users to directly use these equations without having to convert them again.
+
+### Manual Changes
+
+The file [e4m.txt](#file:e4m.txt-context) is the only manual change made to an original equation. The original equation in [e4.txt](#file:e4.txt-context) did not follow the form `sqrt(A) < B`, so it was manually modified to create [e4m.txt](#file:e4m.txt-1-context).
 
 ## Usage
 
